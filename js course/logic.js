@@ -321,39 +321,50 @@
 //        // default code block;
 // }
 
-let Class = 2;
-let students;
-switch (Class) {
-  case 1:
-    students = "There is only one student in class 1";
-    break;
-  default:
-    students = "invalid info";
-    break;
-  case 2:
-    students = "there are only 2 students in class 2";
-    break;
-}
-console.log(students);
+// let Class = 2;
+// let students;
+// switch (Class) {
+//   case 1:
+//     students = "There is only one student in class 1";
+//     break;
+//   default:
+//     students = "invalid info";
+//     break;
+//   case 2:
+//     students = "there are only 2 students in class 2";
+//     break;
+// }
+// console.log(students);
 
-let month = 10;
-let monthsname;
-switch (month) {
-    default :
-   monthsname = "sorry no data"
-    break;
-  case 1:
-    monthsname = "januray";
-    break;
-  case 2:
-    monthsname = "february";
-    break;
-  case 3:
-    monthsname = "march";
-    break;
-  case 4:
-    monthsname = "aprail";
-    break;
-}
-console.log(monthsname);
+// let month = 10;
+// let monthsname;
+// switch (month) {
+//     default :
+//    monthsname = "sorry no data"
+//     break;
+//   case 1:
+//     monthsname = "januray";
+//     break;
+//   case 2:
+//     monthsname = "february";
+//     break;
+//   case 3:
+//     monthsname = "march";
+//     break;
+//   case 4:
+//     monthsname = "aprail";
+//     break;
+// }
+// console.log(monthsname);
+
+// let age = 22
+// if (age < 17) {
+//     console.log("you are child");
+// } else if ( age > 23){
+//     console.log("you r teenager");
+// } else {
+//     console.log("you are adult");
+    
+// }
+
 
