@@ -121,12 +121,12 @@
 // // let c = a / b
 // // console.log(c);
 
-// //modulus
-// // gives remainder of an integer division
-// // let a = 24
-// // let b = 10
-// // let c = a % b
-// // console.log(c);
+// modulus
+// gives remainder of an integer division
+// let a = 24
+// let b = 10
+// let c = a % b
+// console.log(c);
 
 // // exponention
 // // let a = 20
