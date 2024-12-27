@@ -188,7 +188,52 @@
 
 
 // Write a program to determine the greater of two numbers.
-let a = 10
-let b = 20
-let c = 
- 
+
+//  let a = prompt ("First number")
+//  let b = prompt ("second number")
+//  if (a>b)
+//     alert ("A is greater then b")
+// else if (b>a)
+//     alert ("B is greater then a")
+// else if (a==b)
+//     alert ("both are equal")
+
+
+// for (let numbers = 0; numbers<=100; numbers++)
+// {
+//     if (numbers % 2 ===0 )
+//     {
+//         alert(numbers);
+        
+//     }
+// }
+
+// let num = prompt ("input a number")
+// let a = 10
+// for (let a=0; a*10; )
+// {
+//     console.log(a);
+    
+// }
+
+
+// let num = prompt("enter a number")
+// if (num)
+//     {
+//     // console.log(`multipication table for ${num}`);
+//     for(let i = 1; i<=10; i++){
+//         document.write (`${num}x ${i} = ${num*i} <br>`)
+//     }
+     
+// }else ("enter a valid number")
+
+
+// Write a program that asks the user to input 5 numbers, one at a time. For each number, check if it is even or odd and print a message like:
+// "The number 4 is even."
+// "The number 7 is odd."
+// Use a loop to get all 5 numbers and an if statement to determine if the number is even or odd.
+
+let num = prompt ("enter a number")
+for (let i = 1; i<=10;) {
+    document.write(`${num} is ${i} ${num%i} <br>`)
+}
