@@ -1,0 +1,96 @@
+html {
+    background: linear-gradient(black, #431160, black);
+    background-size: cover;
+    font-family: Arial;
+    text-align: center;
+    font-size: 10px;
+  }
+  
+  body {
+    min-height: 100vh;
+    font-size: 2rem;
+    display: flex;
+    flex: 1;
+    align-items: center;
+  }
+  
+  .clock {
+    transition: 0.2s ease;
+    width: 30rem;
+    height: 30rem;
+    border: 15px solid white;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+    padding: 3rem;
+    box-shadow:
+          0 0 0 4px rgba(0,0,0,0.1),
+          inset 0 0 0 3px #EFEFEF,
+          inset 0 0 10px black,
+          0 0 10px rgba(0,0,0,0.2);
+  }
+  
+  .time {
+    color: red;
+  }
+  
+  .clock:hover {
+    width: 35rem;
+    height: 35rem;
+  }
+  
+  .clock:hover .center {
+    top: 46%;
+    left: 46%;
+  }
+  
+  .clock-face{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-3px); /* height of the clock hands */
+    
+  }
+  
+  .center {
+    transition: 0.2s ease;
+    width: 9%;
+    height: 9%;
+    border-radius: 50%;
+    background: black;
+    position: fixed;
+    top: 46%;
+    left: 46%;
+    z-index: 1;
+  }
+  
+  .hand {
+    position: absolute;
+    width: 50%;
+    height: 5px;
+    background: black;
+    top: 50%;
+    transform-origin: 100%;   /* Transforms along the x-axis, putting pivot point on the right-hand side */
+    transform: rotate(90deg);
+    transition: all 0.04s;    /*   transition-timing-function: ease-in-out; */
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+    box-shadow: 1px 1px 1px black;
+  }
+  
+  .hour-hand {
+    position: relative;
+    height: 10px;
+    width: 48%;
+    left: 2%;
+  }
+  
+  .min-hand {
+    height: 3px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+  }
+  
+  .second-hand {
+    height: 2px;
+    background-color: white;
+  }
