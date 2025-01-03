@@ -275,6 +275,39 @@
 // for (me = 0; me >= 0;)
 // console.log(me);
 // Infinite Loop: What will happen if you write the following loop? Why is it an infinite loop?
-while (true) {
-    console.log("This will run forever!");
-  }
+// while (true) {
+//     console.log("This will run forever!");
+//   }
+
+
+//syntax-while
+// while (conditio){
+//     code to exicute
+// }
+
+//syntax-do-while
+// do {code to exicute}
+// while (condition)
+    
+//syntax-for-loop
+// for (initiliation; condition; incrimwnt/decriment)
+// {code to exicute}
+        
+    // let i = 0
+    // do{
+    //     console.log(`Sameer`, i);
+    //       i++;
+        
+    // } 
+    // while(i<=6);
+
+
+    let i = 0
+    while (i>8){
+        console.log(i);
+        i++;
+
+    }
+    
+        
+
