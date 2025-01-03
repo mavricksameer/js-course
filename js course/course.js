@@ -302,12 +302,18 @@
     // while(i<=6);
 
 
-    let i = 0
-    while (i>8){
-        console.log(i);
-        i++;
+    // let i = 0
+    // while (i>8){
+    //     console.log(i);
+    //     i++;
 
-    }
+    // }
     
+    let myArray =["Sameer","aliyan","ali"]
+    let arr = 0
+    while (arr < myArray.length ) {
+        console.log(`value is ${myArray[arr]}`);
+       arr++
+    }
         
 
