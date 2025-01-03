@@ -218,14 +218,14 @@
 
 
 // let num = prompt("enter a number")
-// if (num)
-//     {
+
+    
 //     // console.log(`multipication table for ${num}`);
-//     for(let i = 1; i<=10; i++){
+//     for(let i = 0; i<=10; i++){
 //         document.write (`${num}x ${i} = ${num*i} <br>`)
 //     }
      
-// }else ("enter a valid number")
+
 
 
 // Write a program that asks the user to input 5 numbers, one at a time. For each number, check if it is even or odd and print a message like:
@@ -233,7 +233,48 @@
 // "The number 7 is odd."
 // Use a loop to get all 5 numbers and an if statement to determine if the number is even or odd.
 
-let num = prompt ("enter a number")
-for (let i = 1; i<=10;) {
-    document.write(`${num} is ${i} ${num%i} <br>`)
-}
+// let firstnumber = prompt ("first number")
+// let secoundnumber = prompt ("2nd number")
+// let thirdnumber = prompt ("3rd number")
+// let fourthnumber = prompt ("4th number")
+// let fifthnumber = prompt ("5th number")
+// // for (let i = 0; i<=5; i++)
+//     // ,secoundnumber%2===0, thirdnumber%2===0,fourthnumber%2===0,fifthnumber%2===0
+//     if (firstnumber%2===0)
+//     {
+//         document.write(`${firstnumber}"this is an even number" <br>` )
+        
+        
+//     }else if (i !=2 )
+//         document.write(`${i}"this is an odd number" <br>` )
+
+// for (let i = 0; i < 10; i++) {
+
+//     // if true, skip the remaining part of the body
+//     if (i % 2 == 0) continue;
+  
+//     alert(i); // 1, then 3, 5, 7, 9
+//   }
+//   for (let i = 0; i < 5; i++) {
+//     alert(i * i);
+// }
+// let i = 0;
+// for (i = 0; i < 5; i++) {
+//     if (i === 3) continue;
+//     console.log(i);
+// }
+// Write a for loop that sums the numbers from 1 to 100.
+// let num = 0;
+// for (num = 0; num < 100; num++){
+//     console.log(num);
+     
+// }
+    //How do you create an infinite loop in JavaScript? Provide an example.
+
+// let me = 0
+// for (me = 0; me >= 0;)
+// console.log(me);
+// Infinite Loop: What will happen if you write the following loop? Why is it an infinite loop?
+while (true) {
+    console.log("This will run forever!");
+  }
