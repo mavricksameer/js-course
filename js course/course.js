@@ -315,18 +315,22 @@
     //     console.log(`value is ${myArray[arr]}`);
     //    arr++
     // }
-    let me = 2
-for (me =1;  me<100; me++){
-    console.log(me) 
-}
+//     let me = 2
+// for (me =1;  me<100; me++){
+//     console.log(me) 
+// }
 
-       let score =0 
-       while ( score<10
+//        let score =0 
+//        while ( score<10
 
-        );score++
-        {
-       console.log(score);
+//         );score++
+//         {
+//        console.log(score);
        
         
-       }
+//        }
 
+let a = 0
+for (a=0; a<=20; a++)
+    console.log(a);
+    
