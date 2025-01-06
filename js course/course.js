@@ -309,11 +309,24 @@
 
     // }
     
-    let myArray =["Sameer","aliyan","ali"]
-    let arr = 0
-    while (arr < myArray.length ) {
-        console.log(`value is ${myArray[arr]}`);
-       arr++
-    }
+    // let myArray =["Sameer","aliyan","ali"]
+    // let arr = 0
+    // while (arr < myArray.length ) {
+    //     console.log(`value is ${myArray[arr]}`);
+    //    arr++
+    // }
+    let me = 2
+for (me =1;  me<100; me++){
+    console.log(me) 
+}
+
+       let score =0 
+       while ( score<10
+
+        );score++
+        {
+       console.log(score);
+       
         
+       }
 
