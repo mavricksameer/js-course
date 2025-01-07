@@ -330,7 +330,11 @@
         
 //        }
 
-let a = 0
-for (a=0; a<=20; a++)
-    console.log(a);
+// let a = 0
+// for (a=0; a<=20; a++)
+//     console.log(a);
+let me = 1 
+for (me = 1; me <=22; me++)
+{console.log(me);
+}
     
