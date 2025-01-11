@@ -333,8 +333,19 @@
 // let a = 0
 // for (a=0; a<=20; a++)
 //     console.log(a);
-let me = 1 
-for (me = 1; me <=22; me++)
-{console.log(me);
-}
-    
+// let me = 1 
+// for (me = 1; me <=22; me++)
+// {console.log(me);
+// }
+//     let ali = 0
+//     do {
+//         console.log(`score ${ali}`);
+//         ali++;
+//     }
+//     while (ali < 20)
+        let arr = [1,2,3,4,5,6]
+    arr.forEach  (function(val){
+        console.log( val+" sameer");
+
+    }
+)
