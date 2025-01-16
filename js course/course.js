@@ -343,9 +343,38 @@
 //         ali++;
 //     }
 //     while (ali < 20)
-        let arr = [1,2,3,4,5,6]
-    arr.forEach  (function(val){
-        console.log( val+" sameer");
+    //     let arr = [1,2,3,4,5,6]
+    // arr.forEach  (function(val){
+    //     console.log( val+" sameer");
 
-    }
-)
+    // }
+// )
+// function ShowMessage() {
+//     alert (`hello everyone`);
+    
+// }
+// ShowMessage()
+// function showMessage(){
+//     alert (`Hi!`)
+//     alert (`hello`)
+// }
+// showMessage();
+// showMessage();
+
+
+// function showMessage() {
+//     let message = "Hello, I'm JavaScript!"; // local variable
+  
+//     alert( message );
+//   }
+  
+//   showMessage(); // Hello, I'm JavaScript!
+  
+//   alert( message ); // <-- Error! The variable is local to the function
+let name = "SSameer"
+function showMessage(){
+    let message = "hello "+ name
+    alert(message)   
+
+}
+showMessage()
