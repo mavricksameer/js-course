@@ -371,10 +371,192 @@
 //   showMessage(); // Hello, I'm JavaScript!
   
 //   alert( message ); // <-- Error! The variable is local to the function
-let name = "SSameer"
-function showMessage(){
-    let message = "hello "+ name
-    alert(message)   
+// let name = "SSameer"
+// function showMessage(){
+//     let message = "hello "+ name
+//     alert(message)   
+
+// }
+// showMessage()
+// alert (name)
+// function message(text,explain) {
+//     return(text + explain)
+// }
+
+
+// // alert (message(10,20))
+// function checkage(age) {
+//     if (age>=18) {
+//         return true
+//     }else (
+//         confirm ( "does your parents allow")
+//     )
+// }
+
+// let age = prompt("what is your age?",18)
+// if (checkage(age)){
+//     alert ("access granted")
+// } else
+// alert ( "access denied")
+// let number = prompt ("input a number")
+// function returnnumber(number) {
+//     if (number % 2 === 0) {
+//         alert ("this is an even number")
+//     }else if(number % 2 ){
+//         alert ( "this is an odd number")}
+  
+// }
+// returnnumber(number)
+
+// if (returnnumber(number))
+//     {
+//     alert ("this is an even number")
+// }
+// else
+// alert ("this is an odd number")
+
+// function name() {
+//     for (let i = 1 ; i<=1; i++){
+//         let number = prompt ("input a number")
+//         if ( number%2 ===0) {
+//             alert (`The number ${number} is even`)  
+//         }
+//         else {
+//             alert (`The number ${number} is odd`)
+//         }
+//     }
+// }
+// name()
+// function name() {
+//     for (let i = 0; i<1; i++){
+//         let number = prompt ("input a number")
+//         if (number % 2 ===0) {
+//             alert(`The number ${number} is even`)
+//            }
+//            else{
+//             alert(`The number ${number} is odd`)
+//            }
+//     }
+    
+// }name()
+
+// function name() {
+//     let a = prompt (`input number`)
+//     if (a%2===0) {
+//         alert (`${a} is  even`)
+//     }
+//     else {
+//         alert(`${a} is odd`)
+//     } 
+// }
+
+// name()
+
+//  function name  = ( x , y ) =>
+// {
+//     alert(x+y) 
+// }
+// name(22,22);
+// let sameer = (x,y,z) =>{
+//     console.log(x+y+z);
+    
+// }sameer(20,30,40)
+// const gfg = ( x, y, z ) => {
+//     console.log( x + y + z )
+// }
+
+// gfg( 10, 20, 30 );
+// let sam = (x, a, z) => {
+//     console.log(x*a*z);
+    
+// }
+// sam(20, 20, 20)\
+
+
+
+// basic operator of maths 
+// comparisions
+// let a = prompt ("guss the number")
+// let result = a ===20 ? "you guss right" : "you guss wrong"
+// Whar is the official name of javascript?
+// ema
+// who are you? 
+// shahzaib 
+
+
+
+
+// let a = prompt ("What is the official name of javascript?")
+// if (a == "ema")
+//     {
+//     alert("you guss the correct answer")
+// }
+// else 
+// {
+//     alert("you guss wrong")
+//     let b = prompt (" in corrcet answer plx try again what is the official name of javascipt?")
+// alert (b == "ema" ? "correct answer" : "in corect") (`you guss correct`)
+// }
+
+// let a = prompt ("Enter your username")
+// if (a=="shazaib")
+//      {alert("correct")
+//         let c = prompt ("enter password")
+//         if (c =="12345678")
+//             alert ("login sucessfull")
+//         else {
+//             let d = prompt ("enter your password again")
+//               alert (d=="12345678" ? "Logn Sucessfull" : "Login Fail"  )
+//         } 
+//      }
+// else
+// {
+    
+//     let a = prompt ("Enter correct Name")
+//     if (a=="shazaib")
+//         {alert("correct")
+//            let c = prompt ("enter password")
+//             if (c=="12345678")
+//            alert ("login sucessfull")
+//             else {
+//         let d = prompt ("enter your password again")
+//               alert (d=="12345678" ? "Logn Sucessfull" : "Login Fail"  )
+//         } 
+//     }
+// } 
+
+
+let a = prompt ("input your user name")
+if (a == "shazaib")
+{
+    alert ("correct")
+    let b = prompt ("Enter your Passwrod")
+    if (b=="123456")
+        alert ("Login Sucessfull")
+    else {
+        alert ("invalid password")
+        let c = prompt ("Enter your correct Password")
+        alert(c=="123456" ? "Login Sucessfull" : "Login Fail")
+    }
 
 }
-showMessage()
+else 
+{
+    alert ("invalid username")
+    let d = prompt ("Input the correct username")
+    if (d=="shazaib")
+        {alert ("Correct")
+            let b = prompt ("Enter your Passwrod")
+            if (b=="123456")
+                alert ("Login Sucessfull")
+            else {
+                alert ("invalid password")
+                let c = prompt ("Enter your correct Password")
+                alert(c=="123456" ? "Login Sucessfull" : "Login Fail")
+            }
+        }
+    else {
+        alert("you are banned")
+    }
+
+}
