@@ -69,7 +69,6 @@
 // // //     alert ("this can not be divided by 3")
 // // // }
 
-
 // // Write a program that transforms a numerical grade to a letter grade (e.g grade 10 should display “A”).
 
 // // Write a program that determines if a year is a leap year.
@@ -83,9 +82,6 @@
 // // let b = 20
 // // let c = a  b
 // // console.log(c);
-
-
-
 
 // }
 // let time = 1;
@@ -101,10 +97,9 @@
 //     case 3 :
 //         asas = "good night"
 //         break;
-        
-// } 
-// console.log(asas);
 
+// }
+// console.log(asas);
 
 // let g = "goodmorning"
 // console.log(g)
@@ -113,17 +108,16 @@
 // let f = "good night"
 // console.log(f)
 
-
-//   let a =  prompt ("grade") 
+//   let a =  prompt ("grade")
 //   if (a > 100)
 //     {
 //        alert ("invalid number")
 //     }
-       
+
 //    else if (a>=90)
 //   {
 //     alert ("you got A+")
-//   } 
+//   }
 //   else if (a >= 70)
 //   {
 //     alert ("you got A grade")
@@ -140,9 +134,8 @@
 //  } else if (a < 40){
 //     alert ("sorry you are fail")
 //  }
- 
-//  Write a program that greets the user based on the time of day. Display  good morning, good afternnon or good evening based on the time of day when you run the code.
 
+//  Write a program that greets the user based on the time of day. Display  good morning, good afternnon or good evening based on the time of day when you run the code.
 
 // let prom = prompt ("display Time")
 // if (prom >= 13)
@@ -164,7 +157,6 @@
 // else {
 //   alert ("write a number")
 // }
-  
 
 // Write a simple number guessing game. Provide a secret number and a guess. Based on those numbers give players clues if their guess is higher, lower or correct.
 
@@ -185,8 +177,6 @@
 //   alert ("Guss a number")
 // }
 
-
-
 // Write a program to determine the greater of two numbers.
 
 //  let a = prompt ("First number")
@@ -198,13 +188,12 @@
 // else if (a==b)
 //     alert ("both are equal")
 
-
 // for (let numbers = 0; numbers<=100; numbers++)
 // {
 //     if (numbers % 2 ===0 )
 //     {
 //         alert(numbers);
-        
+
 //     }
 // }
 
@@ -213,20 +202,15 @@
 // for (let a=0; a*10; )
 // {
 //     console.log(a);
-    
-// }
 
+// }
 
 // let num = prompt("enter a number")
 
-    
 //     // console.log(`multipication table for ${num}`);
 //     for(let i = 0; i<=10; i++){
 //         document.write (`${num}x ${i} = ${num*i} <br>`)
 //     }
-     
-
-
 
 // Write a program that asks the user to input 5 numbers, one at a time. For each number, check if it is even or odd and print a message like:
 // "The number 4 is even."
@@ -243,8 +227,7 @@
 //     if (firstnumber%2===0)
 //     {
 //         document.write(`${firstnumber}"this is an even number" <br>` )
-        
-        
+
 //     }else if (i !=2 )
 //         document.write(`${i}"this is an odd number" <br>` )
 
@@ -252,7 +235,7 @@
 
 //     // if true, skip the remaining part of the body
 //     if (i % 2 == 0) continue;
-  
+
 //     alert(i); // 1, then 3, 5, 7, 9
 //   }
 //   for (let i = 0; i < 5; i++) {
@@ -267,9 +250,9 @@
 // let num = 0;
 // for (num = 0; num < 100; num++){
 //     console.log(num);
-     
+
 // }
-    //How do you create an infinite loop in JavaScript? Provide an example.
+//How do you create an infinite loop in JavaScript? Provide an example.
 
 // let me = 0
 // for (me = 0; me >= 0;)
@@ -279,7 +262,6 @@
 //     console.log("This will run forever!");
 //   }
 
-
 //syntax-while
 // while (conditio){
 //     code to exicute
@@ -288,52 +270,50 @@
 //syntax-do-while
 // do {code to exicute}
 // while (condition)
-    
+
 //syntax-for-loop
 // for (initiliation; condition; incrimwnt/decriment)
 // {code to exicute}
-        
-    // let i = 0
-    // do{
-    //     console.log(`Sameer`, i);
-    //       i++;
-        
-    // } 
-    // while(i<=6);
 
+// let i = 0
+// do{
+//     console.log(`Sameer`, i);
+//       i++;
 
-    // let i = 0
-    // while (i>8){
-    //     console.log(i);
-    //     i++;
+// }
+// while(i<=6);
 
-    // }
-    
-    // let myArray =["Sameer","aliyan","ali"]
-    // let arr = 0
-    // while (arr < myArray.length ) {
-    //     console.log(`value is ${myArray[arr]}`);
-    //    arr++
-    // }
-//     let me = 2
-// for (me =1;  me<100; me++){
-//     console.log(me) 
+// let i = 0
+// while (i>8){
+//     console.log(i);
+//     i++;
+
 // }
 
-//        let score =0 
+// let myArray =["Sameer","aliyan","ali"]
+// let arr = 0
+// while (arr < myArray.length ) {
+//     console.log(`value is ${myArray[arr]}`);
+//    arr++
+// }
+//     let me = 2
+// for (me =1;  me<100; me++){
+//     console.log(me)
+// }
+
+//        let score =0
 //        while ( score<10
 
 //         );score++
 //         {
 //        console.log(score);
-       
-        
+
 //        }
 
 // let a = 0
 // for (a=0; a<=20; a++)
 //     console.log(a);
-// let me = 1 
+// let me = 1
 // for (me = 1; me <=22; me++)
 // {console.log(me);
 // }
@@ -343,15 +323,15 @@
 //         ali++;
 //     }
 //     while (ali < 20)
-    //     let arr = [1,2,3,4,5,6]
-    // arr.forEach  (function(val){
-    //     console.log( val+" sameer");
+//     let arr = [1,2,3,4,5,6]
+// arr.forEach  (function(val){
+//     console.log( val+" sameer");
 
-    // }
+// }
 // )
 // function ShowMessage() {
 //     alert (`hello everyone`);
-    
+
 // }
 // ShowMessage()
 // function showMessage(){
@@ -361,20 +341,19 @@
 // showMessage();
 // showMessage();
 
-
 // function showMessage() {
 //     let message = "Hello, I'm JavaScript!"; // local variable
-  
+
 //     alert( message );
 //   }
-  
+
 //   showMessage(); // Hello, I'm JavaScript!
-  
+
 //   alert( message ); // <-- Error! The variable is local to the function
 // let name = "SSameer"
 // function showMessage(){
 //     let message = "hello "+ name
-//     alert(message)   
+//     alert(message)
 
 // }
 // showMessage()
@@ -382,7 +361,6 @@
 // function message(text,explain) {
 //     return(text + explain)
 // }
-
 
 // // alert (message(10,20))
 // function checkage(age) {
@@ -404,7 +382,7 @@
 //         alert ("this is an even number")
 //     }else if(number % 2 ){
 //         alert ( "this is an odd number")}
-  
+
 // }
 // returnnumber(number)
 
@@ -419,7 +397,7 @@
 //     for (let i = 1 ; i<=1; i++){
 //         let number = prompt ("input a number")
 //         if ( number%2 ===0) {
-//             alert (`The number ${number} is even`)  
+//             alert (`The number ${number} is even`)
 //         }
 //         else {
 //             alert (`The number ${number} is odd`)
@@ -437,7 +415,7 @@
 //             alert(`The number ${number} is odd`)
 //            }
 //     }
-    
+
 // }name()
 
 // function name() {
@@ -447,19 +425,19 @@
 //     }
 //     else {
 //         alert(`${a} is odd`)
-//     } 
+//     }
 // }
 
 // name()
 
 //  function name  = ( x , y ) =>
 // {
-//     alert(x+y) 
+//     alert(x+y)
 // }
 // name(22,22);
 // let sameer = (x,y,z) =>{
 //     console.log(x+y+z);
-    
+
 // }sameer(20,30,40)
 // const gfg = ( x, y, z ) => {
 //     console.log( x + y + z )
@@ -468,30 +446,25 @@
 // gfg( 10, 20, 30 );
 // let sam = (x, a, z) => {
 //     console.log(x*a*z);
-    
+
 // }
 // sam(20, 20, 20)\
 
-
-
-// basic operator of maths 
+// basic operator of maths
 // comparisions
 // let a = prompt ("guss the number")
 // let result = a ===20 ? "you guss right" : "you guss wrong"
 // Whar is the official name of javascript?
 // ema
-// who are you? 
-// shahzaib 
-
-
-
+// who are you?
+// shahzaib
 
 // let a = prompt ("What is the official name of javascript?")
 // if (a == "ema")
 //     {
 //     alert("you guss the correct answer")
 // }
-// else 
+// else
 // {
 //     alert("you guss wrong")
 //     let b = prompt (" in corrcet answer plx try again what is the official name of javascipt?")
@@ -507,11 +480,11 @@
 //         else {
 //             let d = prompt ("enter your password again")
 //               alert (d=="12345678" ? "Logn Sucessfull" : "Login Fail"  )
-//         } 
+//         }
 //      }
 // else
 // {
-    
+
 //     let a = prompt ("Enter correct Name")
 //     if (a=="shazaib")
 //         {alert("correct")
@@ -521,42 +494,60 @@
 //             else {
 //         let d = prompt ("enter your password again")
 //               alert (d=="12345678" ? "Logn Sucessfull" : "Login Fail"  )
-//         } 
+//         }
 //     }
-// } 
+// }
+
+// let a = prompt("input your user name");
+// if (a == "shazaib") {
+//   alert("correct");
+//   let b = prompt("Enter your Passwrod");
+//   if (b == "123456") 
+//     alert("Login Sucessfull");
+//   else {
+//     let c = prompt("Enter your correct Password");
+//     alert(c == "123456" ? "Login Sucessfull" : "Login Fail");
+//   }
+// } else {
+//   alert("invalid username");
+//   let d = prompt("Input the correct username");
+//   if (d == "shazaib") {
+//     alert("Correct");
+//     let b = prompt("Enter your Passwrod");
+//     if (b == "123456") 
+//         alert("Login Sucessfull");
+//     else {
+//       alert("invalid password");
+//       let c = prompt("Enter your correct Password");
+//       alert(c == "123456" ? "Login Sucessfull" : "Login Fail");
+//     }
+//   } else {
+//     alert("you are banned");
+//   }
+// }
 
 
-let a = prompt ("input your user name")
-if (a == "shazaib")
-{
-    alert ("correct")
-    let b = prompt ("Enter your Passwrod")
-    if (b=="123456")
-        alert ("Login Sucessfull")
-    else {
-        alert ("invalid password")
-        let c = prompt ("Enter your correct Password")
-        alert(c=="123456" ? "Login Sucessfull" : "Login Fail")
-    }
 
-}
-else 
-{
-    alert ("invalid username")
-    let d = prompt ("Input the correct username")
-    if (d=="shazaib")
-        {alert ("Correct")
-            let b = prompt ("Enter your Passwrod")
-            if (b=="123456")
-                alert ("Login Sucessfull")
-            else {
-                alert ("invalid password")
-                let c = prompt ("Enter your correct Password")
-                alert(c=="123456" ? "Login Sucessfull" : "Login Fail")
-            }
-        }
-    else {
-        alert("you are banned")
-    }
+// let i = 0;
+// while (i<=3){
+//     alert (i); i++;
+// }
 
-}
+// for (let i = 0; i<= 10; i--)
+    
+
+// let arr = [1,2,3,4,5,6,7]
+// for ( let i = 0; i <arr.length ; i++ )
+// {
+//     console.log(i);
+// }
+=> ask(question, yes, no) {
+    if (confirm(question)) yes();
+    else no();
+  }
+  
+  ask(
+    "Do you agree?",
+    =>() { alert("You agreed."); },
+    =>() { alert("You canceled the execution."); }
+);
