@@ -555,5 +555,11 @@
 // for (let i = 0 ; i < arr.length ; i++) {
 //  }
 
-const names = [1,2,3,4,5,6,7]
-console.log(names);
+// const names = [1,2,3,4,5,6,7]
+// console.log(names);
+// let x = 
+// console.log(x);
+
+let x = [1,2,3,4,5,6,7]
+alert(x.pop());
+alert(x)
