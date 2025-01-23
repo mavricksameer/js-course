@@ -502,7 +502,7 @@
 // if (a == "shazaib") {
 //   alert("correct");
 //   let b = prompt("Enter your Passwrod");
-//   if (b == "123456") 
+//   if (b == "123456")
 //     alert("Login Sucessfull");
 //   else {
 //     let c = prompt("Enter your correct Password");
@@ -514,7 +514,7 @@
 //   if (d == "shazaib") {
 //     alert("Correct");
 //     let b = prompt("Enter your Passwrod");
-//     if (b == "123456") 
+//     if (b == "123456")
 //         alert("Login Sucessfull");
 //     else {
 //       alert("invalid password");
@@ -526,28 +526,34 @@
 //   }
 // }
 
-
-
 // let i = 0;
 // while (i<=3){
 //     alert (i); i++;
 // }
 
 // for (let i = 0; i<= 10; i--)
-    
 
-// let arr = [1,2,3,4,5,6,7]
-// for ( let i = 0; i <arr.length ; i++ )
-// {
-//     console.log(i);
+// let arr = ["sameer",2,3,"wahab",5,"ali",7]
+// for ( let i = 0; i <arr.length ;  )
+
+//     (arr [5]);
+//     (arr[0]);
+//  (arr [3])
+// { document.write (i)
 // }
-=> ask(question, yes, no) {
-    if (confirm(question)) yes();
-    else no();
-  }
-  
-  ask(
-    "Do you agree?",
-    =>() { alert("You agreed."); },
-    =>() { alert("You canceled the execution."); }
-);
+// let arr = [`ali`, `saqib`,`sameer` ]
+// // alert (arr[0])
+// arr[3]=`sheryar`
+// console.log(arr);
+// let arr = [`apple`,`banana`,`orange` ]
+// console.log(arr.length);
+// let arr = ['asnk','sameer','ali','kash']
+// alert (arr.at(-1))
+
+//  console.log(arr[i] );
+// let arr = [1,2,3,4,5,6,7];
+// for (let i = 0 ; i < arr.length ; i++) {
+//  }
+
+const names = [1,2,3,4,5,6,7]
+console.log(names);
