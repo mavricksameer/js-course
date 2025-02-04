@@ -566,6 +566,3 @@
 
 
 
-let a = "sameer"
-let b = "al"
-alert(a + b)
