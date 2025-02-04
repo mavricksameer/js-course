@@ -565,7 +565,6 @@
 // alert(x)
 
 
-
 function getGrade(score) {
     if (score === 100) {
       return "A++";
