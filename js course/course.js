@@ -565,18 +565,19 @@
 // alert(x)
 
 
-function getGrade(score) {
+function getGrade(score) { 
+  let score = prompt ("enter your persentage")
     if (score === 100) {
-      return "A++";
+      alert ("A++");
     } else if (score >= 90) {
-      return "A";
+      alert ("A");
     } else if (score >= 80) {
-      return "B";
+      alert ("B");
     } else if (score >= 70) {
-      return "C";
+      alert ("C");
     } else if (score >= 60) {
-      return "D";
+      alert ("D");
     } else {
-      return "F";
+      alert ("F");
     }
   }
